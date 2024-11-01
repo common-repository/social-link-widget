@@ -1,0 +1,30 @@
+.rsocial-link ul {
+    padding: 0;
+}
+
+.rsocial-link ul>li {
+    list-style: none;
+    margin: 0px 8px 8px 0;
+    float: left
+}
+
+.rsocial-link ul>li>a {
+    width: 30px;
+    height: 30px;
+    display: block
+}
+
+.rsocial-link ul>li>a>img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    filter: grayscale(0);
+    transition:All 0.3s ease;
+    -webkit-transition:All 0.3s ease;
+    -moz-transition:All 0.3s ease;
+    -o-transition:All 0.3s ease;
+}
+
+.rsocial-link ul>li>a>img:hover {
+    filter: grayscale(1)
+}
